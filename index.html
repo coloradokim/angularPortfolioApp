@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="portfolioApp">
+<head>
+  <meta charset="UTF-8">
+  <title>KSchlesinger Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body ng-controller="ResumeController">
+    <nav>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="/#/">Home</a></li>
+      <li role="presentation"><a href="#/bio">Biography</a></li>
+      <li role="presentation"><a href="#/projects">Projects</a></li>
+    </ul>
+  </nav>
+    <div ng-view></div>
+    <h1>FOOTER</h1>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </body>
+</html>
